@@ -1,0 +1,84 @@
+.box {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+.box__imagem {
+    margin: 0 3px;
+   position: relative;
+}
+
+
+.img__ajani {
+    width: 950px; 
+    margin-left: 150px;
+    border-radius: 10px;
+    
+}
+
+.box__personagens {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+
+.box__personagem-imagem {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    max-width: 305px ;
+    border-radius: 10px;
+    margin-bottom: 3px;
+    
+}
+
+.descriçao {
+    position: absolute;
+    top: 0;
+    left: 150px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px 175px;
+    border-radius: 10px 10px 0 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.descriçao__elfo {
+    position: absolute;
+    top: 130px;
+    left: 0;
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 86.9px;
+    border-radius: 0 0 10px 10px ;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.descriçao__guerreira {
+    position: absolute;
+    top: 284px;
+    left: 0.2px;
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 70.6px;
+    border-radius: 0 0 10px 10px ;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.descriçao__vingadora {
+    position: absolute;
+    top: 510px;
+    left: 0;
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 114.5px;
+    border-radius: 0 0 10px 10px ;
+    font-size: 16px;
+    font-weight: 400;
+}

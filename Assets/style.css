@@ -1,0 +1,21 @@
+@import url("cabeça.css");
+@import url("box.css");
+@import url("footer.css");
+
+:root {
+    --branco: #FFFFFF;
+    --nave: rgba(75, 101, 116, 0.5);
+    --fonte: font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    background-image: url("./IMG/BACKGROUD.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: auto;
+    font-family: var(--fonte);
+}
+

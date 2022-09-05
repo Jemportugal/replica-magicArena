@@ -1,0 +1,34 @@
+.rodape {
+    display: flex;
+  
+}
+.imagem__usuario {
+    width: 80px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.recompensa__lista {
+    display: flex;
+    list-style-type: none;
+    padding-left: 200px;
+}
+
+.recompensa__img {
+    margin: 0 5px;
+}
+
+.botao {
+    font-size: 25px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(red, orange);
+    color: white; 
+    font-weight: 700;
+    margin-left: 10px;
+    margin-top: 50px;
+    padding: 15px 100px;   
+    border-radius: 50px;
+
+}
